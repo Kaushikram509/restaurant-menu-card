@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu - FlavorBite</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="menu-body light">
+  <header>
+    <h1>FlavorBite Restaurant Menu</h1>
+    <div class="filter">
+      <button onclick="filterCategory('all')">All</button>
+      <button onclick="filterCategory('starters')">Starters</button>
+      <button onclick="filterCategory('main-course')">Main Course</button>
+      <button onclick="filterCategory('soups')">Soups</button>
+      <button onclick="filterCategory('desserts')">Desserts</button>
+      <button onclick="filterCategory('sweets')">Sweets</button>
+      <button onclick="filterCategory('drinks')">Drinks</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="menu-category" data-category="starters">
+      <h2>Starters</h2>
+      <div class="menu-item">
+        <p>Manchuriya <span>₹250.99</span></p>
+        <img src="https://www.shutterstock.com/image-photo/veg-manchurian-popular-indochinese-food-260nw-2016382481.jpg" alt="Manchuriya" />
+      </div>
+      <div class="menu-item">
+        <p>Finger Chips <span>₹160.99</span></p>
+        <img src="https://spiceit.in/wp-content/uploads/2022/05/Finger-Chips.jpg" alt="Finger Chips" />
+      </div>
+      <div class="menu-item">
+        <p>Baby Corn <span>₹100.00</span></p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHXOr0owCIIF10irriu_CQZQgnY81_90AhaA&s" alt="Baby Corn" />
+      </div>
+      <div class="menu-item">
+        <p>Paneer 65 <span>₹132.99</span></p>
+        <img src="https://www.indianveggiedelight.com/wp-content/uploads/2021/08/air-fryer-paneer-tikka-featured.jpg" alt="Paneer 65" />
+      </div>
+      <div class="menu-item">
+        <p>Spring Rolls <span>₹103.99</span></p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlLhmLsWWlwNJrniPPsTm1VG6SzCy9iThOcA&s" alt="Spring Rolls" />
+      </div>
+      <div class="menu-item">
+        <p>Noodles <span>₹200.99</span></p>
+        <img src="https://images.getrecipekit.com/20241008094433-blog-20templates-20-3.webp?aspect_ratio=16:9&quality=90&" alt="Noodles" />
+      </div>
+    </section>
+
+    <section class="menu-category" data-category="main-course">
+      <h2>Main Course</h2>
+      <div class="menu-item">
+        <p>Chapati Sabzi <span>₹350.99</span></p>
+        <img src="https://as2.ftcdn.net/jpg/04/36/12/67/1000_F_436126787_TZNRMS4JVBZE7FN1xHda8pqkiRHhhYW1.jpg" alt="Chapati Sabzi" />
+      </div>
+      <div class="menu-item">
+        <p>Veg Thali <span>₹589.49</span></p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLTzK_7hGPMVE_l3Gfgmlu_GRSzsmK76ul9w&s" alt="Veg Thali" />
+      </div>
+      <div class="menu-item">
+        <p>Aloo Paneer Paratha <span>₹129.49</span></p>
+        <img src="https://foodfoodonlyfood.wordpress.com/wp-content/uploads/2021/08/img_20210412_095151.jpg?w=678" alt="Aloo Paneer Paratha" />
+      </div>
+    </section>
+
+    <section class="menu-category" data-category="soups">
+      <h2>Soups</h2>
+      <div class="menu-item">
+        <p>Tomato Soup <span>₹150.99</span></p>
+        <img src="https://www.funfoodfrolic.com/wp-content/uploads/2020/10/Tomato-Soup-Thumbnail.jpg" alt="Tomato Soup" />
+      </div>
+      <div class="menu-item">
+        <p>Corn Soup <span>₹129.49</span></p>
+        <img src="https://www.cookclickndevour.com/wp-content/uploads/2016/07/sweet-corn-clear-soup-recipe-b.jpg" alt="Corn Soup" />
+      </div>
+      <div class="menu-item">
+        <p>Special Mixed Soup <span>₹111.49</span></p>
+        <img src="https://i.ytimg.com/vi/-4bMr4v83uY/sddefault.jpg" alt="Special Mixed Soup" />
+      </div>
+    </section>
+
+    <section class="menu-category" data-category="desserts">
+      <h2>Desserts</h2>
+      <div class="menu-item">
+        <p>Cool Cake <span>₹58.49</span></p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_RCD7aidGdQvCgyuQpWJ_ygKCYwNcUa8ZmQ&s" alt="Cool Cake" />
+      </div>
+      <div class="menu-item">
+        <p>Ice Cream <span>₹30.99</span></p>
+        <img src="https://www.milkmaid.in/sites/default/files/2022-12/Chocolate-Ice-Cream-335x300.jpg" alt="Ice Cream" />
+      </div>
+      <div class="menu-item">
+        <p>Pot Chocolate <span>₹34.87</span></p>
+        <img src="https://bakingamoment.com/wp-content/uploads/2024/01/IMG_0235-pot-de-creme.jpg" alt="Pot Chocolate" />
+      </div>
+      <div class="menu-item">
+        <p>Donuts <span>₹45.00</span></p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAlyt08btovbXkx2-dY3nFiBuwQcXga-cQ7A&s" alt="Donuts" />
+      </div>
+    </section>
+
+    <section class="menu-category" data-category="sweets">
+      <h2>Sweets</h2>
+      <div class="menu-item">
+        <p>Gulab Jamun <span>₹28.49</span></p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO_h10yUtCeO60gdPjyUbbpe8zvM4pRJGoyQ&s" alt="Gulab Jamun" />
+      </div>
+      <div class="menu-item">
+        <p>Rasmalai <span>₹30.99</span></p>
+        <img src="https://5.imimg.com/data5/SELLER/Default/2024/2/386839112/ZK/GY/OG/144303146/fresh-rasmalai-sweet-500x500.jpg" alt="Rasmalai" />
+      </div>
+      <div class="menu-item">
+        <p>Jalebi <span>₹24.87</span></p>
+        <img src="https://m.media-amazon.com/images/I/515Ueeh4ylL._AC_UF1000,1000_QL80_.jpg" alt="Jalebi" />
+      </div>
+      <div class="menu-item">
+        <p>Kaju Katli <span>₹40.00</span></p>
+        <img src="https://www.parsidairyfarm.com/cdn/shop/files/KesarKajuKatli_960x960_crop_center.jpg?v=1699528221" alt="Kaju Katli" />
+      </div>
+    </section>
+
+    <section class="menu-category" data-category="drinks">
+      <h2>Drinks</h2>
+      <div class="menu-item">
+        <p>Soft Drinks <span>₹28.49</span></p>
+        <img src="https://static.toiimg.com/thumb/msid-113513478,imgsize-114890,width-400,resizemode-4/113513478.jpg" alt="Soft Drinks" />
+      </div>
+      <div class="menu-item">
+        <p>Fruit Juices <span>₹30.99</span></p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1d_--aafWGm_jDDWy9G3RiDVLgLBqcY1dYg&s" alt="Fruit Juices" />
+      </div>
+      <div class="menu-item">
+        <p>Cocktails <span>₹34.87</span></p>
+        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2022/06/Tequila-sunrise-fb8b3ab.jpg?quality=90&resize=556,505" alt="Cocktails" />
+      </div>
+      <div class="menu-item">
+        <p>Capertuno <span>₹50.88</span></p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyDA7NX6Fjn6xO_elex8QVsvKZOb2d3shVws_F310mE-isZ1X2ZSGykHqzgDDIU07SmDM&usqp=CAU" alt="Capertuno" />
+      </div>
+      <div class="menu-item">
+        <p>Hyderabadi Irani Chai <span>₹50.88</span></p>
+        <img src="https://www.scratchingcanvas.com/wp-content/uploads/2021/05/Irani-Chai.1i.jpg" alt="Hyderabadi Irani Chai" />
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
